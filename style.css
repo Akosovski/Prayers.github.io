@@ -1,8 +1,3 @@
-
-* {
-  box-sizing: border-box;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -10,302 +5,53 @@ body{
     background-color: #e5e5e5;
 }
 
-.card-img-top{
-    max-width: 100%;
-    height: auto;
-}
-
-video {
-    max-width: 100%;
-    max-height: 700px;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 25px;
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
   }
 
-#titel{
-    display: block;
-    padding-top: 10px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 270px; 
-    height: 150px;
-}
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 
-.menu a {
-  background-color: #e5e5e5;
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
 
-.caption-intro{
-    margin-bottom: 25px;
-    margin-top: 25px;
-    text-align: center; 
-    color: black;
-    font-weight: 500;
-    transition: font-size 0.5s;
-    
-}
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
 
-.caption-intro:hover{
-    color: pink;
-    font-size: 280%;
-    transition-timing-function: ease;
-    cursor: pointer;
-    text-shadow: 0 0 5px #FF0000, 0 0 8px #0000FF;
-}
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
 
-.caption-intro:active {
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-.caption-container {
-    width: auto;
-    height: 80px;
-}
-
-.quotes p{
-    text-align: center;
-    justify-self: baseline;
-    max-width: 900px;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    font-size: 20px;
-}
-
-.hero-image {
-    width: 100%;
-    max-width: cover;
-    height: auto;
-    filter: brightness(100%);
-    justify-content: center;
-    display: flex;
-}
-
-.caption-image{
-    width: max-content;
+  .nav-scroller {
     position: relative;
-}
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
 
-.main {
-    background-color: #e5e5e5;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 1000px;
-    padding: 0 20px;
-    justify-content: center;
+  .nav-scroller .nav {
     display: flex;
-}
-
-.titler{
-    background-color: #e5e5e5;
-}
-.row-info{
-    display: flex;
-}
-.column{
-    flex: 50%;
-    background-color: #630c22;
-}
-
-.row-info p{
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
     text-align: center;
-    font-size: 20px;
-    color: lightgray;
-}
-
-#intro-img{
-    filter: brightness(100%);
-    max-height: 400px; 
-    max-width: 400px; 
-    margin: auto;
-}
-
-#intro-img:hover{
-    transition-timing-function: ease-out;
-}
-
-#top:hover{
-    color: purple;
-    cursor:pointer;
-    text-shadow: 0 0 3px purple;
-    transition-timing-function: ease;
-}
-
-#top:active {
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-#kyofuuyo:hover{
-    color: purple;
-    cursor:pointer;
-    text-shadow: 0 0 3px purple;
-    transition-timing-function: ease;
-}
-
-#kyofuuyo:active {
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-#jibun-no-unmei:hover{
-    color: purple;
-    cursor:pointer;
-    text-shadow: 0 0 3px purple;
-    transition-timing-function: ease;
-}
-
-#jibun-no-unmei:active {
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-#raimei-ni:hover{
-    color: purple;
-    cursor:pointer;
-    text-shadow: 0 0 3px purple;
-    transition-timing-function: ease;
-}
-
-#raimei-ni:active {
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-#watashi-wa:hover{
-    color: purple;
-    cursor:pointer;
-    text-shadow: 0 0 3px purple;
-    transition-timing-function: ease;
-}
-
-#watashi-wa:active {
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-@media only screen and (max-width: 1300px) {
-    .row-info p{
-        justify-self: center;
-        max-width: 290px;
-        font-size: 18px;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-left: auto;
-    }
-    #top{
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .row-info p{
-        justify-self: center;
-        max-width: 230px;
-        font-size: 17px;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-left: auto;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .quotes p{
-        margin-top: 15px;
-        font-size: 16px;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-    .caption-intro{
-        font-size: 26px;
-        font-weight: normal;
-    }
-    .row-info p{
-        justify-self: center;
-        max-width: 150px;
-        font-size: 17px;
-        margin-top: 35px;
-        margin-left: auto;
-        margin-left: auto;
-    }
-    .caption-intro:hover{
-        color: pink;
-        font-size: 200%;
-        transition-timing-function: ease;
-        cursor: pointer;
-        text-shadow: 0 0 5px #FF0000, 0 0 8px #0000FF;
-    }
-    #top{
-        margin-top: 30px;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    #start-container{
-        width: auto;
-    }
-    .caption-container {
-        width: auto;
-        height: 40px;
-    }
-
-    .menu, .main, .right{
-        width: auto;
-    }
-    .titler{
-        margin: auto;
-    }
-    .row {
-        display: block;
-        justify-content: center;
-        max-width: 100%;
-    }
-    .quotes p{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 15px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    .caption-intro{
-        font-size: 19px;
-        font-weight: normal;
-    }
-    .caption-intro:hover{
-        color: pink;
-        font-size: 130%;
-        transition-timing-function: ease;
-        cursor: pointer;
-        text-shadow: 0 0 5px #FF0000, 0 0 8px #0000FF;
-    }
-    .column{
-        width: auto;
-        height: 500px;
-    }
-    #quoters{
-        width: 0%;
-    }
-    #quoters p{
-        visibility: hidden;
-    }
-    #intro-img{
-        overflow: hidden;
-        width: auto;
-        max-height: 100%;
-    }
-}
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
