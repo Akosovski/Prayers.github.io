@@ -181,7 +181,30 @@ function done18() {
 /* PASSWORD VALIDATION */
 
 let passform = document.getElementById("floatingPassword");
+let indicator = document.getElementById("indicator");
 
-if (passform.value == "aku"){
+function goToTambahan() {
+    restoreIndicator();
     window.location.href = "./doa-tambahan.html";
+}
+
+function goToKumpulan() {
+    window.location.href = "./index.html";
+}
+
+function restoreIndicator() {
+    indicator.innerHTML = "Masukkan kata sandi.";
+    indicator.style.color = "black";
+}
+
+function tambahan(){
+    if (passform.value == "aku"){
+        indicator.style.color = "green";
+        indicator.innerHTML = "Kata sandi BENAR.";
+        setTimeout(goToTambahan, 1000);
+    }
+    else{
+        indicator.style.color = "red";
+        indicator.innerHTML = "Kata sandi SALAH.";
+    }
 }
