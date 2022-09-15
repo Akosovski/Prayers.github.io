@@ -177,3 +177,6 @@ function done18() {
     element18.remove('btn-primary');
     element18.toggle('btn-success');
 }
+
+/* PASSWORD VALIDATION */
+
