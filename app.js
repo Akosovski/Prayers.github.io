@@ -180,3 +180,8 @@ function done18() {
 
 /* PASSWORD VALIDATION */
 
+let passform = document.getElementById("floatingPassword");
+
+if (passform.value == "aku"){
+    window.location.href = "./doa-tambahan.html";
+}
