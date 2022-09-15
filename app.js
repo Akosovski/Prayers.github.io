@@ -206,5 +206,6 @@ function tambahan(){
     else{
         indicator.style.color = "red";
         indicator.innerHTML = "Kata sandi SALAH.";
+        setTimeout(restoreIndicator, 3000);
     }
 }
