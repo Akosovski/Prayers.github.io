@@ -198,7 +198,7 @@ function restoreIndicator() {
 }
 
 function tambahan(){
-    if (passform.value == "aku"){
+    if (passform.value == "sako"){
         indicator.style.color = "green";
         indicator.innerHTML = "Kata sandi BENAR.";
         setTimeout(goToTambahan, 1000);
