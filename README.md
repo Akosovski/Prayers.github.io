@@ -1,5 +1,5 @@
 ## Prayers
-This website contains moslem essential prayers for personal use.
+Website that contains some of moslem's essential prayers for personal use.
 Pictures by SHAHIHFIQIH
 
 ---
