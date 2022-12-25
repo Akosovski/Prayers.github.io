@@ -1,6 +1,6 @@
 ## Prayers
-Website which contains some of the moslem's most essential prayers for personal use.
-Most Pictures & Resources obtained from SHAHIHFIQIH.
+A website which contains some of the most essential moslem prayers for personal use.
+Most Pictures & Resources are obtained from SHAHIHFIQIH.
 
 ---
 
