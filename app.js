@@ -1,3 +1,4 @@
+var password = "sako";
 let element1 = document.getElementById("btndoa1");
 element1.addEventListener("click", done1);
 
@@ -198,7 +199,7 @@ function restoreIndicator() {
 }
 
 function tambahan(){
-    if (passform.value == "sako"){
+    if (passform.value == password){
         indicator.style.color = "green";
         indicator.innerHTML = "Kata sandi BENAR.";
         setTimeout(goToTambahan, 1000);
